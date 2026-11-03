@@ -240,6 +240,79 @@ body{margin:0;}
 :root[data-theme="dark"] .theme-toggle:hover{color:#339fff;border-color:#64748b;}
 :root[data-theme="dark"] .theme-toggle .i-sun{display:block;} :root[data-theme="dark"] .theme-toggle .i-moon{display:none;}
 @media print{ .theme-toggle{display:none !important;} }
+/* Where Quotes and Sales Came From (aid_section.py) */
+.atable{min-width:0;}
+.atable.wide{min-width:640px;}
+.atable th.r,.atable td.r{padding-right:20px;}
+.atable th.r:last-child,.atable td.r:last-child{padding-right:4px;}
+.atable td{padding:13px 0;}
+.atable .big{font-size:17px;}
+.atable td .sub.ts{max-width:300px;margin:4px 0 0 18px;}
+.atable td.r .sub.pk{max-width:none;font-size:12px;white-space:nowrap;}
+@media (max-width:560px){
+  .atable th{font-size:10px;letter-spacing:.04em;}
+  .atable th.r,.atable td.r{padding-right:7px;}
+  .atable td.r .sub.pk{font-size:11px;}
+  .atable .nm{gap:6px;}
+  .atable .big{font-size:15px;}
+  .atable .nm{font-size:13px;}
+  .atable .cc{font-size:14px;}
+  .atable td .sub.ts{margin-left:0;}
+  .atable td .nm .bd{display:none;}
+}
+.atable tr.tot td{border-top:1px solid var(--border-strong);border-bottom:none;}
+.atable tr.muted .nm,.atable tr.muted .big{color:var(--ink-muted);}
+.atable .aidn{font-variant-numeric:tabular-nums;white-space:nowrap;}
+.atable .cc{font-size:15px;font-weight:600;color:var(--ink-soft);font-variant-numeric:tabular-nums;}
+.anote{font-size:13px;color:var(--ink-muted);line-height:1.6;margin-top:16px;}
+.anote b{color:var(--ink);font-weight:600;}
+.astack{display:grid;gap:16px;}
+
+/* month table and related reports */
+.mtable{min-width:560px;}
+.atable th:first-child{padding-right:10px;}
+.mtable td{padding:12px 0;}
+.mtable .big{font-size:16px;}
+.mtable td.na .cc{color:var(--ink-muted);}
+.rel .pstep .h a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--brand-border);}
+.rel .pstep .h a:hover{color:var(--brand-text);}
+
+.atable{min-width:0;}
+.atable.wide{min-width:640px;}
+.atable th.r,.atable td.r{padding-right:20px;}
+.atable th.r:last-child,.atable td.r:last-child{padding-right:4px;}
+.atable td{padding:13px 0;}
+.atable .big{font-size:17px;}
+.atable td .sub.ts{max-width:300px;margin:4px 0 0 18px;}
+.atable td.r .sub.pk{max-width:none;font-size:12px;white-space:nowrap;}
+@media (max-width:560px){
+  .atable th{font-size:10px;letter-spacing:.04em;}
+  .atable th.r,.atable td.r{padding-right:7px;}
+  .atable td.r .sub.pk{font-size:11px;}
+  .atable .nm{gap:6px;}
+  .atable .big{font-size:15px;}
+  .atable .nm{font-size:13px;}
+  .atable .cc{font-size:14px;}
+  .atable td .sub.ts{margin-left:0;}
+  .atable td .nm .bd{display:none;}
+}
+.atable tr.tot td{border-top:1px solid var(--border-strong);border-bottom:none;}
+.atable tr.muted .nm,.atable tr.muted .big{color:var(--ink-muted);}
+.atable .aidn{font-variant-numeric:tabular-nums;white-space:nowrap;}
+.atable .cc{font-size:15px;font-weight:600;color:var(--ink-soft);font-variant-numeric:tabular-nums;}
+.anote{font-size:13px;color:var(--ink-muted);line-height:1.6;margin-top:16px;}
+.anote b{color:var(--ink);font-weight:600;}
+.astack{display:grid;gap:16px;}
+
+/* call-outs and the recommendation box */
+.gapcall{border:1px solid var(--brand-border);border-radius:12px;padding:16px 20px;margin-top:16px;background:linear-gradient(var(--brand-tint),var(--brand-tint)),var(--surface);font-size:14px;line-height:1.6;color:var(--ink);}
+.gapcall b{color:var(--brand-text);} .gapcall p{margin:0 0 8px;} .gapcall p:last-child{margin-bottom:0;}
+.askbox{border:2px solid var(--brand);border-radius:14px;padding:18px 22px;margin-top:16px;background:var(--surface);font-size:14px;line-height:1.6;color:var(--ink);}
+.askbox .ah{font-family:"Sora",system-ui,sans-serif;font-weight:700;font-size:15px;color:var(--brand-text);margin-bottom:8px;letter-spacing:.01em;}
+.askbox p{margin:0 0 8px;} .askbox ul{margin:0 0 10px;padding-left:20px;} .askbox li{margin:0 0 6px;}
+.askbox .am{font-size:13px;color:var(--ink-muted);margin:0;} .askbox b{color:var(--ink);}
+.wtable td{padding:10px 0;}
+.ltable td:first-child{padding-right:16px;}
 </style>
 </head>
 <body>
@@ -253,12 +326,13 @@ body{margin:0;}
     <div class="eb">Performance Review</div>
     <div class="rule"></div>
     <h1>AGM Insurance</h1>
-    <div class="who">Prepared for <b>Kevin</b><br>Virginia Beach, VA<br>Home &middot; Since launch, Aug 25 through Oct 12, 2026</div>
+    <div class="who">Prepared for <b>Kevin</b><br>Virginia Beach, VA<br>Home &middot; Since launch, Aug 25 through Nov 3, 2026</div>
     <nav aria-label="Report sections">
       <a href="#s1"><span class="ix">01</span>Key Metrics</a>
       <a href="#s2"><span class="ix">02</span>Performance by Source</a>
       <a href="#s3"><span class="ix">03</span>Conversion Funnel</a>
-      <a href="#s4"><span class="ix">04</span>Recommendations</a>
+      <a href="#s4"><span class="ix">04</span>Where Sales Came From</a>
+      <a href="#s5"><span class="ix">05</span>Recommendations</a>
     </nav>
     <div class="foot">GOAL Performance Marketing<br>All conversion metrics calculated based on Leads, not Clicks.</div>
   </aside>
@@ -266,26 +340,28 @@ body{margin:0;}
   <main class="main">
 
     <div class="strip">
-      <div class="f"><span class="l">Reporting period</span><span class="v">Since launch, Aug 25 through Oct 12, 2026</span></div>
+      <div class="f"><span class="l">Reporting period</span><span class="v">Since launch, Aug 25 through Nov 3, 2026</span></div>
       <div class="f"><span class="l">Lines</span><span class="v">Home</span></div>
-      <div class="f"><span class="l">Lead source</span><span class="v">GOAL branded campaigns</span></div>
+      <div class="f"><span class="l">Lead source</span><span class="v">GOAL branded campaign</span></div>
       <span class="badge">Home</span>
     </div>
 
     <section class="block" id="s1">
-      <div class="bhead"><span class="ix">01</span><div><h2>Key Metrics</h2><p>Since launch, Aug 25 through Oct 12, 2026</p></div></div>
+      <div class="bhead"><span class="ix">01</span><div><h2>Key Metrics</h2><p>Since launch, Aug 25 through Nov 3, 2026</p></div></div>
       <div class="kgrid">
-        <div class="kc"><div class="v">72</div><div class="k">Leads</div><div class="d">Home</div></div>
-        <div class="kc"><div class="v">&ndash;</div><div class="k">Contact Rate</div><div class="d">No Contacted pixel yet</div></div>
-        <div class="kc"><div class="v">11.1%</div><div class="k">Quote Rate</div><div class="d">8 of 72 leads</div></div>
-        <div class="kc hl"><div class="v">&ndash;</div><div class="k">CPA</div><div class="d">Cost per sale &middot; 0 sold</div></div>
-        <div class="kc"><div class="v">0</div><div class="k">Policies Sold</div><div class="d">Sold pixel set up, no events yet</div></div>
-        <div class="kc"><div class="v">8</div><div class="k">Inbound Calls</div><div class="d">Direct from prospects</div></div>
+        <div class="kc"><div class="v">72</div><div class="k">Leads</div><div class="d">Home &middot; $1,095 spend &middot; 8 inbound calls &middot; 8 callers</div></div>
+        <div class="kc hl"><div class="v">No sale yet</div><div class="k">CPA</div><div class="d">$1,095.23 spend, no household sold yet</div></div>
+        <div class="kc"><div class="v">0</div><div class="k">Households Sold</div><div class="d">8 quoted, 8 still open</div></div>
+        <div class="kc"><div class="v">No sale yet</div><div class="k">Cost per Item</div><div class="d">No items sold yet</div></div>
+        <div class="kc"><div class="v">11.1%</div><div class="k">Quote Rate</div><div class="d">8 of 72 leads quoted &middot; $137 per quote</div></div>
+        <div class="kc"><div class="v">22.2%</div><div class="k">Contact Rate</div><div class="d">16 of 72 leads contacted &middot; 68 in your lead lists</div></div>
       </div>
+<div class="askbox"><div class="ah">What we need from you</div><p>Thank you for the Oct 14 lead list. It brought in the first sale, with its item count. The latest lead list is dated Oct 14, so the 58 Auto leads that arrived from Oct 15 to Nov 3 have no contact, quote or sale status yet. Their results will show once the next status file arrives.</p><ul><li><b>Send an updated status file</b> covering every GOAL lead since Aug 25, with Contacted, Quoted, Sold and Items as in the Oct 14 list, and add an Assigned To column if you can. It brings the October and November leads into this report and lets it show results by producer.</li><li><b>Fill in Items on every sale.</b> Items is what cost per item is built on; a sale with no count is shown as 1 item.</li><li><b>Keep working the open quotes.</b> 28 quotes are open with no sale yet, and 9 leads are at Attempted Contact in GOAL with no contact yet.</li></ul><p class="am">1 household bought since launch, on Auto, with 2 items. It is in your Oct 14 lead list and marked Sold in GOAL; GOAL's Sold events count 1 and its Items events 2. With one sale, CPA and cost per item are a starting read; cost per quote ($126) is the steadier measure for now.</p></div>
+      <div class="gapcall"><p><b>How to read this report.</b> Quotes, contacts and sales come from your 2 lead lists (Sep 24 and Oct 14, 2026), matched to GOAL leads by phone, then by name, plus the statuses set on leads in GOAL. They show 29 quoted leads and 47 contacted, the same as GOAL's 29 Quoted and 47 Contacted events. CPA is spend divided by households sold. Cost per item is spend divided by items sold. Items come from the Items column of your Oct 14 lead list, which has one row for each lead: the one household sold has 2 items (auto and motorcycle). A sale with no item count would count as 1 item.</p><p>Home spend was highest in September ($622 of the $1,095). Home has had no leads since Sep 15, when it was paused; its results cover Aug 25 to Sep 15.</p><p>Contacted counts leads quoted or sold, or marked Contacted in your lead list (or Contacted in GOAL). Status set counts leads with a Contacted, Quoted or Sold flag in a lead list, or a GOAL status. The Status column in your list (Cold, Warmed, Engaged, Highly Engaged) is a lead-temperature label and is not counted as a status.</p><p>One phone number sits on two GOAL leads (Sep 2 and Oct 26), from a household that asked again. Each file row counts once, on the latest lead created on or before the file date, and each household counts one sale. No sale was set aside as an existing customer: the one sale was first marked Sold in the Oct 14 lead list, the day after its lead arrived. The Sep 24 list marks 7 leads as Customer in its Type column; none of them is marked Sold, so no count changes. One test row in each list (a placeholder name with no GOAL lead) matches no lead and is left out. No status file has a Producer or Assigned To column (the Status column in your lead list is a lead-temperature label), so results by producer are not available yet.</p></div>
     </section>
 
     <section class="block" id="s2">
-      <div class="bhead"><span class="ix">02</span><div><h2>Performance by Source</h2><p>Since launch, Aug 25 through Oct 12, 2026</p></div></div>
+      <div class="bhead"><span class="ix">02</span><div><h2>Performance by Source</h2><p>Since launch, Aug 25 through Nov 3, 2026</p></div></div>
       <div class="split">
         <div class="panel">
           <div class="pt">Lead Mix</div>
@@ -311,55 +387,176 @@ body{margin:0;}
             <thead><tr><th>Source</th><th class="r">Leads</th><th class="r">Calls</th><th>Notes</th></tr></thead>
             <tbody>
               <tr>
-                <td><div class="nm"><span class="bd" style="background:var(--s1)"></span>Tier 3</div><span class="tag blue">Primary</span></td>
+                <td><div class="nm"><span class="bd" style="background:var(--s1)"></span>Tier 3</div><span class="tag blue">Most leads</span></td>
                 <td class="r"><span class="big">34</span></td>
                 <td class="r"><span class="big">5</span></td>
-                <td><div class="sub">47% of leads. 4 quoted (11.8%), no sales yet.</div></td>
+                <td><div class="sub">47% of leads, $529 spend. No sale yet. 4 quoted (11.8%), $132 per quote. Leads by month: Aug 14, Sep 20.</div></td>
               </tr>
               <tr>
                 <td><div class="nm"><span class="bd" style="background:var(--s2)"></span>Tier 1</div></td>
                 <td class="r"><span class="big">27</span></td>
                 <td class="r"><span class="big">3</span></td>
-                <td><div class="sub">38% of leads. 4 quoted (14.8%), no sales yet.</div></td>
+                <td><div class="sub">38% of leads, $418 spend. No sale yet. 4 quoted (14.8%), $105 per quote. Leads by month: Aug 12, Sep 15.</div></td>
               </tr>
               <tr>
                 <td><div class="nm"><span class="bd" style="background:var(--s3)"></span>Other</div></td>
                 <td class="r"><span class="big">11</span></td>
                 <td class="r"><span class="big">0</span></td>
-                <td><div class="sub">15% of leads. Tier 2 (5 leads), Home SearchB (4), Home Search (1) and Native/Display/Social 2 (1): no quotes.</div></td>
+                <td><div class="sub">15% of leads, $148 spend. No sale yet. No quote yet. 4 smaller sources: Tier 2 (5), Home SearchB (4), Home Search (1), Native/Display/Social 2 (1).</div></td>
               </tr>
             </tbody>
           </table>
+          <div class="sub" style="max-width:none;margin-top:14px">Leads, spend and inbound calls are GOAL source totals for Aug 25 through Nov 3, 2026. Quotes and sales by source: each quoted or sold prospect was traced to the source of its original lead (8 of 8 quotes). GOAL's own events show 8 quoted, 0 sold and 0 items on Home. Home has had no leads since Sep 15, when it was paused; its results cover Aug 25 to Sep 15.</div>
         </div>
       </div>
     </section>
 
     <section class="block" id="s3">
-      <div class="bhead"><span class="ix">03</span><div><h2>Conversion Funnel</h2><p>Since launch, Aug 25 through Oct 12, 2026</p></div></div>
+      <div class="bhead"><span class="ix">03</span><div><h2>Conversion Funnel</h2><p>Since launch, Aug 25 through Nov 3, 2026</p></div></div>
       <div class="fpanel">
-        <div class="fstep"><div class="lab">Your ad shown<small>impressions</small></div><div class="fbar"><i class="pre" data-w="100">252</i></div><div class="pct"><b>100%</b></div></div>
-        <div class="fstep"><div class="lab">Clicks<small>to your page</small></div><div class="fbar"><i class="pre" data-w="86">102</i></div><div class="pct"><b>40.5%</b><span>of impressions</span></div></div>
+        <div class="fstep"><div class="lab">Clicks<small>to your page</small></div><div class="fbar"><i class="pre" data-w="100">102</i></div><div class="pct"><b>100%</b></div></div>
         <div class="fdiv">Conversion funnel &middot; rates based on Leads</div>
-        <div class="fstep"><div class="lab">Leads<small>submitted</small></div><div class="fbar"><i class="cv" data-w="80">72</i></div><div class="pct"><b>70.6%</b><span>of clicks</span></div></div>
-        <div class="fstep"><div class="lab">Contacted<small>reached</small></div><div class="fbar"><i class="pre" data-w="0"></i></div><div class="pct"><b>&ndash;</b><span>no pixel</span></div></div>
-        <div class="fstep"><div class="lab">Quotes<small>presented</small></div><div class="fbar"><i class="cv" data-w="45">8</i></div><div class="pct"><b>11.1%</b><span>of leads</span></div></div>
-        <div class="fstep"><div class="lab">Sales<small>policies sold</small></div><div class="fbar"><i class="cv end" data-w="12">0</i></div><div class="pct"><b>0.0%</b><span>of leads</span></div></div>
-        <div class="fnote">Contact rate shows a dash because the account does not send a Contacted pixel yet. Quote rate <b>11.1%</b> (8 of 72 leads). No sales recorded for the period.</div>
+        <div class="fstep"><div class="lab">Leads<small>submitted</small></div><div class="fbar"><i class="cv" data-w="84">72</i></div><div class="pct"><b>70.6%</b><span>of clicks</span></div></div>
+        <div class="fstep"><div class="lab">Status set<small>worked</small></div><div class="fbar"><i class="cv" data-w="32">20</i></div><div class="pct"><b>27.8%</b><span>of leads</span></div></div>
+        <div class="fstep"><div class="lab">Contacted<small>reached</small></div><div class="fbar"><i class="cv" data-w="27">16</i></div><div class="pct"><b>22.2%</b><span>of leads</span></div></div>
+        <div class="fstep"><div class="lab">Quoted<small>quote presented</small></div><div class="fbar"><i class="cv" data-w="19">8</i></div><div class="pct"><b>11.1%</b><span>of leads</span></div></div>
+        <div class="fstep"><div class="lab">Sales<small>households sold</small></div><div class="fbar"><i class="cv end" data-w="14">0</i></div><div class="pct"><b>0.0%</b><span>of leads</span></div></div>
+        <div class="fnote">GOAL delivered <b>72</b> leads from 102 clicks (70.6%). 20 have a status set in your lead lists or GOAL; they show <b>16</b> contacted, <b>8</b> quoted (11.1% of leads) and <b>0</b> households sold. 4 leads are at Attempted Contact with no contact yet, and 52 have no status yet. Cost per quote <b>$137</b> ($1,095.23 &divide; 8 quotes); no household sold yet. GOAL's own events show 8 quoted, 16 contacted, 0 sold and 0 items on Home. They follow your uploads; the counts here come from the files themselves, matched to each lead.</div>
       </div>
+      <div class="panel tscroll" style="margin-top:16px">
+          <div class="pt">By month the lead arrived</div>
+          <table class="ltable atable mtable">
+            <thead><tr><th>Month</th><th class="r">Leads</th><th class="r">Spend</th><th class="r">Contacted</th><th class="r">Quoted</th><th class="r">Sold</th><th class="r">Items</th><th class="r">Quote rate</th><th class="r">Cost per quote</th></tr></thead>
+            <tbody>
+              <tr>
+                <td><div class="nm">Aug 25 to 31</div></td>
+                <td class="r"><span class="big">30</span></td>
+                <td class="r"><span class="cc">$473</span></td>
+                <td class="r"><span class="cc">7</span></td>
+                <td class="r"><span class="cc">4</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">13.3%</span></td>
+                <td class="r"><span class="cc">$118</span></td>
+              </tr>
+              <tr>
+                <td><div class="nm">Sep 1 to 30</div></td>
+                <td class="r"><span class="big">42</span></td>
+                <td class="r"><span class="cc">$622</span></td>
+                <td class="r"><span class="cc">9</span></td>
+                <td class="r"><span class="cc">4</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">9.5%</span></td>
+                <td class="r"><span class="cc">$156</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      <div class="anote">Leads and spend are GOAL monthly counts. Contacted, quoted, sold and items are counted in the month the lead arrived, and cost per quote is that month's spend divided by its quoted leads. August is Aug 25 to 31. Home has had no leads since Sep 15, when it was paused; its results cover Aug 25 to Sep 15.</div>
     </section>
 
-    <section class="block" id="s4" style="margin-bottom:0;">
-      <div class="bhead"><span class="ix">04</span><div><h2>Recommendations</h2><p>Next review period</p></div></div>
+    <section class="block" id="s4">
+      <div class="bhead"><span class="ix">04</span><div><h2>Where Quotes and Sales Came From: Ad Channel and Traffic Tier</h2><p>Quoted and sold prospects by the ad channel (Aid) of the lead, and by traffic tier &middot; Since launch, Aug 25 through Nov 3, 2026</p></div></div>
+      <div class="astack">
+        <div class="panel tscroll">
+          <div class="pt">Quotes and sales by ad channel (Aid)</div>
+          <table class="ltable atable">
+            <thead><tr><th>Ad channel &middot; traffic tier</th><th class="r">Leads</th><th class="r">Contacted</th><th class="r">Quoted</th><th class="r">Sold</th><th class="r">Items</th></tr></thead>
+            <tbody>
+              <tr>
+                <td><div class="nm"><span class="bd" style="background:var(--s1)"></span><span class="aidn">Aid 114217</span></div><div class="sub ts">Tier 3</div></td>
+                <td class="r"><span class="cc">19</span></td>
+                <td class="r"><span class="cc">3</span></td>
+                <td class="r"><span class="big">2</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
+              </tr>
+              <tr>
+                <td><div class="nm"><span class="bd" style="background:var(--s2)"></span><span class="aidn">Aid 113771</span></div><div class="sub ts">Tier 3, Premium Referral (sampled)</div></td>
+                <td class="r"><span class="cc">9</span></td>
+                <td class="r"><span class="cc">2</span></td>
+                <td class="r"><span class="big">2</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
+              </tr>
+              <tr>
+                <td><div class="nm"><span class="bd" style="background:var(--s5)"></span>4 more ad channels</div><div class="sub ts">One quote each, no sale</div></td>
+                <td class="r"><span class="cc">18</span></td>
+                <td class="r"><span class="cc">6</span></td>
+                <td class="r"><span class="big">4</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
+              </tr>
+              <tr>
+                <td><div class="nm"><span class="bd" style="background:var(--s7)"></span>All other channels</div><div class="sub ts">16 ad channels with no quote yet</div></td>
+                <td class="r"><span class="cc">26</span></td>
+                <td class="r"><span class="cc">5</span></td>
+                <td class="r"><span class="big">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
+              </tr>
+              <tr class="tot">
+                <td><div class="nm">Total</div><div class="sub ts">22 ad channels</div></td>
+                <td class="r"><span class="cc">72</span></td>
+                <td class="r"><span class="cc">16</span></td>
+                <td class="r"><span class="big">8</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="panel tscroll">
+          <div class="pt">Quotes and sales by traffic tier</div>
+          <table class="ltable atable">
+            <thead><tr><th>Traffic tier</th><th class="r">Quoted</th><th class="r">Sold</th><th class="r">Leads</th><th class="r">Spend</th><th class="r">Cost per quote</th></tr></thead>
+            <tbody>
+              <tr>
+                <td><div class="nm"><span class="bd" style="background:var(--s1)"></span>Tier 1</div><div class="sub ts">4 ad channels</div></td>
+                <td class="r"><span class="big">4</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">27</span></td>
+                <td class="r"><span class="cc">$418</span></td>
+                <td class="r"><span class="cc">$105</span></td>
+              </tr>
+              <tr>
+                <td><div class="nm"><span class="bd" style="background:var(--s2)"></span>Tier 3</div><div class="sub ts">2 ad channels</div></td>
+                <td class="r"><span class="big">4</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">34</span></td>
+                <td class="r"><span class="cc">$529</span></td>
+                <td class="r"><span class="cc">$132</span></td>
+              </tr>
+              <tr class="tot">
+                <td><div class="nm">Total</div><div class="sub ts">2 traffic tiers with a quote</div></td>
+                <td class="r"><span class="big">8</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">72</span></td>
+                <td class="r"><span class="cc">$1,095</span></td>
+                <td class="r"><span class="cc">$137</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="anote">No household on Home has bought yet, so this section compares quotes. 8 of the 8 quoted leads on Home were traced to their traffic tier. Leads, contacts and quotes by ad channel come from the prospect records, your files and GOAL statuses. A channel's tier comes from its traced sales and quotes; where a channel has neither, its tier comes from a sample of its leads and is marked "(sampled)". One ad channel can run in more than one tier. Leads, spend and cost per quote in the tier table are the GOAL source's totals on Home since launch. Spend by ad channel is not available, so the ad channel table compares outcomes, not cost.</div>
+      <div class="gapcall"><p><b>Ad channels with the fewest quotes and binds.</b> The <a href="AGM-Monthly-Sales-by-Source-11-03-26.html" style="color:var(--brand-text);font-weight:600">Monthly Sales by Source and Aid</a> report ranks the ad channels with many leads and few or no quotes or binds. Nothing has been changed at the ad channel level.</p></div>
+    </section>
+
+    <section class="block" id="s5" style="margin-bottom:0;">
+      <div class="bhead"><span class="ix">05</span><div><h2>Recommendations</h2><p>Next review period</p></div></div>
       <div class="plan">
-        <div class="pstep"><div class="num">1</div><div><div class="h">Restart Home When You Are Ready<span class="tag blue">GOAL</span></div><div class="b">Home has been paused since September 15. On restart we suggest keeping Tier 3 as the volume source and bringing Tier 1 back with a 10% bid increase. Daily limits stay where they are.</div><div class="m"><b>Metric behind it:</b> Tier 1 quoted 4 of 27 leads (14.8%) but won only 3% of its auctions; Tier 3 quoted 4 of 34 (11.8%).</div></div></div>
-        <div class="pstep"><div class="num">2</div><div><div class="h">Leave Out Home Search and Home SearchB<span class="tag blue">GOAL</span></div><div class="b">Pause the two search sources on restart and let the Tier sources carry the budget.</div><div class="m"><b>Metric behind it:</b> 5 leads and no quotes on $84 between them.</div></div></div>
-        <div class="pstep"><div class="num">3</div><div><div class="h">Quote Auto With Every Home Lead<span class="tag neutral">Agency</span></div><div class="b">Ask about the household&#39;s vehicles on every Home call and quote the bundle.</div><div class="m"><b>Metric behind it:</b> Home quote rate is 11.1% (8 of 72 leads).</div></div></div>
-        <div class="pstep"><div class="num">4</div><div><div class="h">Work Every Lead Across 30 Days<span class="tag neutral">Agency</span></div><div class="b">Contact frequency by week, across phone, text, and email:</div>
-          <div class="cad"><div class="c"><div class="w">Week 1</div><div class="n">3+/day</div><div class="s">all channels</div></div><div class="c"><div class="w">Week 2</div><div class="n">2+/day</div><div class="s">all channels</div></div><div class="c"><div class="w">Weeks 3&ndash;4</div><div class="n">every 2&ndash;3 days</div><div class="s">all channels</div></div></div><div class="m"><b>Metric behind it:</b> 64 of 72 Home leads (89%) have no recorded quote.</div></div></div>
+        <div class="pstep"><div class="num">1</div><div><div class="h">Raise the Bid on Premium Referral (Auto)<span class="tag blue">GOAL</span></div><div class="b">About a 10% bid increase on Premium Referral, the Auto source with the most leads, the most quotes and the first sale. October brought it 31 of its 50 leads. Daily limits stay where they are.</div><div class="m"><b>Metric behind it:</b> Premium Referral: 50 of 164 Auto leads, $826, 7 quoted (14.0%), 1 sale with 2 items, $118 per quote. Auto overall: 21 quoted (12.8%), $122 per quote.</div></div></div>
+        <div class="pstep"><div class="num">2</div><div><div class="h">Hold the Other Auto Sources<span class="tag blue">GOAL</span></div><div class="b">Email, Native/Display/Social 2, Premium Paid Search 2 and the smaller Auto sources stay at their current settings. With one sale on the account, their counts are too small to move on yet; we will look again once the next status file is in. Daily limits stay where they are.</div><div class="m"><b>Metric behind it:</b> Email: 27 leads, 4 quoted (14.8%). Native/Display/Social 2: 32 leads, 2 quoted (6.2%). Premium Paid Search 2: 21 leads, 3 quoted. None has a sale yet.</div></div></div>
+        <div class="pstep"><div class="num">3</div><div><div class="h">Send an Updated Status File, With Items<span class="tag neutral">Agency</span></div><div class="b">Please send a status file covering every GOAL lead since Aug 25, with Contacted, Quoted, Sold and Items as in the Oct 14 list, and an Assigned To column if you can. It brings the October and November leads into this report and lets it show results by producer.</div><div class="m"><b>Metric behind it:</b> 2 lead lists so far, Sep 24 and Oct 14. The latest lead list is dated Oct 14, so the 58 Auto leads that arrived from Oct 15 to Nov 3 have no contact, quote or sale status yet. Their results will show once the next status file arrives.</div></div></div>
+        <div class="pstep"><div class="num">4</div><div><div class="h">Close the Open Quotes, Home First<span class="tag neutral">Agency</span></div><div class="b">Call back each quoted prospect who has not bought, starting with the 8 Home quotes from August and September. Home has had no leads since Sep 15, when it was paused; its results cover Aug 25 to Sep 15. Ask about the household's vehicles on every Home call and quote the bundle.</div><div class="m"><b>Metric behind it:</b> 28 open quotes: 20 on Auto, 8 on Home. Home: 8 quoted of 72 leads (11.1%), $137 per quote.</div></div></div>
+        <div class="pstep"><div class="num">5</div><div><div class="h">Work Every New Lead to a Contact<span class="tag neutral">Agency</span></div><div class="b">Make another attempt on each lead with no contact yet, at a different time of day and by text as well as phone. Most leads have no Contacted, Quoted or Sold flag in your lead list yet.</div><div class="m"><b>Metric behind it:</b> 47 of 236 leads contacted (19.9%); 180 have no status yet, 58 of them from after Oct 14. 9 are at Attempted Contact in GOAL.</div></div></div>
+        <div class="pstep"><div class="num">6</div><div><div class="h">Geography: For Discussion<span class="tag amber">For discussion</span></div><div class="b">We can look at where quotes are coming from together and decide whether any area should get more or less focus. No geo-targeting changes have been made.</div><div class="m"><b>Metric behind it:</b> Hampton Roads sent 60 leads with 11 quotes; Roanoke, Lynchburg and Southwest Virginia 51 leads and 4 quotes; Northern Virginia and the Fredericksburg area 45 leads and 4 quotes; the Richmond area 42 leads and 5 quotes; the Shenandoah Valley 20 leads, 4 quotes and the one sale; Central Virginia, Southside and the Eastern Shore 18 leads and 1 quote. The Source and ZIP Sales report has every county and ZIP.</div></div></div>
       </div>
     </section>
 
-    <div class="mfoot"><span>All conversion metrics calculated based on Leads, not Clicks.</span><span>GOAL &middot; Since launch, Aug 25 through Oct 12, 2026</span></div>
+    <div class="mfoot"><span>All conversion metrics calculated based on Leads, not Clicks.</span><span>GOAL &middot; Since launch, Aug 25 through Nov 3, 2026</span></div>
 
   </main>
 </div>
