@@ -1,161 +1,161 @@
-zip,county,city,leads,leads_auto,leads_home,leads_aug,leads_sep,leads_oct,leads_nov,homeowners,in_lead_list,status_set,contacted,quoted,sold_households,items_sold,inbound_callers,inbound_calls
-22824,Shenandoah,Edinburg,1,1,0,0,0,1,0,0,1,1,1,1,1,2,1,1
-23224,Richmond City,Richmond,7,6,1,1,2,4,0,1,6,3,3,2,0,0,1,2
-22193,Prince William,Woodbridge,5,2,3,1,2,2,0,3,4,2,1,1,0,0,1,2
-23607,Newport News City,Newport News,4,3,1,1,0,3,0,1,2,1,1,1,0,0,2,2
-23222,Richmond City,Richmond,3,3,0,0,1,2,0,0,2,1,1,1,0,0,0,0
-23462,Virginia Beach City,Virginia Beach,3,1,2,1,1,1,0,2,2,1,1,1,0,0,0,0
-23513,Norfolk City,Norfolk,3,1,2,1,1,0,1,2,2,1,1,1,0,0,0,0
-23805,Petersburg City,Petersburg,3,2,1,0,3,0,0,1,3,2,2,1,0,0,0,0
-20121,Fairfax,Centreville,2,1,1,0,1,0,1,1,1,1,1,1,0,0,1,1
-23454,Virginia Beach City,Virginia Beach,2,1,1,1,0,1,0,1,2,1,1,1,0,0,1,1
-23504,Norfolk City,Norfolk,2,2,0,1,0,1,0,0,2,1,1,1,0,0,0,0
-23703,Portsmouth City,Portsmouth,2,1,1,0,2,0,0,1,2,1,1,1,0,0,0,0
-24301,Pulaski,Pulaski,2,2,0,0,2,0,0,0,2,1,1,1,0,0,0,0
-20120,Fairfax,Centreville,1,1,0,0,0,1,0,0,1,1,1,1,0,0,0,0
-22031,Fairfax,Fairfax,1,1,0,0,0,1,0,0,1,1,1,1,0,0,0,0
-22655,Frederick,Stephens City,1,0,1,0,1,0,0,1,1,1,1,1,0,0,1,1
-22815,Rockingham,Broadway,1,1,0,0,0,1,0,0,1,1,1,1,0,0,1,1
-22851,Page,Stanley,1,1,0,1,0,0,0,0,1,1,1,1,0,0,0,0
-22903,Charlottesville City,Charlottesville,1,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0
-23220,Richmond City,Richmond,1,1,0,1,0,0,0,0,1,1,1,1,0,0,1,1
-23432,Suffolk City,Suffolk,1,1,0,1,0,0,0,0,1,1,1,1,0,0,0,0
-23434,Suffolk City,Suffolk,1,1,0,0,0,1,0,0,1,1,1,1,0,0,1,1
-23502,Norfolk City,Norfolk,1,1,0,1,0,0,0,0,1,1,1,1,0,0,0,0
-23505,Norfolk City,Norfolk,1,1,0,0,0,1,0,0,1,1,1,1,0,0,1,1
-23664,Hampton City,Hampton,1,0,1,1,0,0,0,1,1,1,1,1,0,0,1,1
-24095,Bedford,Goodview,1,0,1,0,1,0,0,1,1,1,1,1,0,0,0,0
-24121,Bedford,Moneta,1,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0
-24151,Franklin,Rocky Mount,1,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0
-22191,Prince William,Woodbridge,6,4,2,2,0,3,1,3,2,0,0,0,0,0,0,0
-23803,Petersburg City,Petersburg,5,5,0,1,0,4,0,1,1,1,1,0,0,0,0,0
-24017,Roanoke City,Roanoke,5,1,4,1,3,1,0,4,5,1,1,0,0,0,0,0
-22554,Stafford,Stafford,3,2,1,0,2,1,0,2,2,0,0,0,0,0,0,0
-23234,Chesterfield,Richmond,3,1,2,1,1,1,0,2,3,0,0,0,0,0,1,1
-23320,Chesapeake City,Chesapeake,3,3,0,1,0,2,0,0,3,0,0,0,0,0,0,0
-23701,Portsmouth City,Portsmouth,3,2,1,0,2,1,0,1,2,0,0,0,0,0,0,0
-24112,Martinsville City,Martinsville,3,3,0,0,0,3,0,0,1,0,0,0,0,0,0,0
-22003,Fairfax,Annandale,2,2,0,0,0,2,0,0,1,0,0,0,0,0,0,0
-22192,Prince William,Woodbridge,2,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0
-22405,Stafford,Fredericksburg,2,1,1,1,1,0,0,1,2,0,0,0,0,0,0,0
-22553,Spotsylvania,Spotsylvania,2,1,1,1,1,0,0,1,2,1,1,0,0,0,0,0
-22602,Frederick,Winchester,2,1,1,0,1,0,1,1,1,0,0,0,0,0,0,0
-22802,Harrisonburg City,Harrisonburg,2,1,1,0,1,1,0,1,1,0,0,0,0,0,0,0
-23223,Richmond City,Richmond,2,1,1,0,1,0,1,1,1,0,0,0,0,0,0,0
-23225,Richmond City,Richmond,2,1,1,1,0,1,0,1,1,1,1,0,0,0,0,0
-23227,Henrico,Richmond,2,2,0,0,0,2,0,0,1,0,0,0,0,0,0,0
-23231,Henrico,Henrico,2,1,1,1,1,0,0,2,2,0,0,0,0,0,1,1
-23323,Chesapeake City,Chesapeake,2,1,1,1,1,0,0,1,2,1,1,0,0,0,0,0
-23455,Virginia Beach City,Virginia Beach,2,2,0,0,1,1,0,0,2,0,0,0,0,0,0,0
-23509,Norfolk City,Norfolk,2,1,1,0,1,1,0,1,2,0,0,0,0,0,0,0
-23601,Newport News City,Newport News,2,1,1,1,1,0,0,1,2,0,0,0,0,0,0,0
-23602,Newport News City,Newport News,2,2,0,0,0,1,1,0,1,0,0,0,0,0,0,0
-23608,Newport News City,Newport News,2,1,1,0,2,0,0,1,1,0,0,0,0,0,0,0
-23666,Hampton City,Hampton,2,1,1,0,1,1,0,1,1,0,0,0,0,0,0,0
-23831,Chesterfield,Chester,2,2,0,1,1,0,0,1,2,1,0,0,0,0,0,0
-24084,Pulaski,Dublin,2,2,0,0,1,1,0,0,2,0,0,0,0,0,0,0
-24153,Salem,Salem,2,0,2,2,0,0,0,2,2,0,0,0,0,0,0,0
-24179,Roanoke,Vinton,2,2,0,1,1,0,0,0,2,0,0,0,0,0,0,0
-24230,Wise,Coeburn,2,0,2,0,2,0,0,2,2,0,0,0,0,0,0,0
-24281,Lee,Rose Hill,2,2,0,0,1,1,0,1,2,0,0,0,0,0,1,1
-24477,Augusta,Stuarts Draft,2,1,1,1,1,0,0,1,2,2,2,0,0,0,1,1
-24523,Bedford,Bedford,2,1,1,0,2,0,0,1,2,0,0,0,0,0,0,0
-24592,Halifax,South Boston,2,2,0,0,1,1,0,0,1,0,0,0,0,0,0,0
-24639,Buchanan,Raven,2,1,1,1,0,1,0,1,1,0,0,0,0,0,0,0
-20147,Loudoun,Ashburn,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-20148,Loudoun,Ashburn,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0
-20152,Loudoun,Chantilly,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-20155,Prince William,Gainesville,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0
-20164,Loudoun,Sterling,1,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0
-20171,Fairfax,Herndon,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0
-20187,Fauquier,Warrenton,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0
-22015,Fairfax,Burke,1,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0
-22026,Prince William,Dumfries,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0
-22030,Fairfax City,Fairfax,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-22180,Fairfax,Vienna,1,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0
-22201,Arlington,Arlington,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-22204,Arlington,Arlington,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-22207,Arlington,Arlington,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-22303,Fairfax,Alexandria,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-22306,Fairfax,Alexandria,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-22311,Alexandria City,Alexandria,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-22315,Fairfax,Alexandria,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-22407,Spotsylvania,Fredericksburg,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-22572,Richmond,Warsaw,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0
-22611,Clarke,Berryville,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-22656,Frederick,Stephenson,1,0,1,1,0,0,0,1,1,1,1,0,0,0,0,0
-22657,Shenandoah,Strasburg,1,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0
-22701,Culpeper,Culpeper,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-22732,Madison,Radiant,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-22820,Rockingham,Criders,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0
-22821,Rockingham,Dayton,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0
-22827,Rockingham,Elkton,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0
-22835,Page,Luray,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-22939,Augusta,Fishersville,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-22942,Orange,Gordonsville,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0
-22952,Augusta,Lyndhurst,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0
-22960,Orange,Orange,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-23027,Cumberland,Cartersville,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-23050,Gloucester,Dutton,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0
-23060,Henrico,Glen Allen,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0
-23061,Gloucester,Gloucester,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0
-23075,Henrico,Henrico,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0
-23092,Middlesex,Locust Hill,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-23114,Chesterfield,Midlothian,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-23116,Hanover,Mechanicsville,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-23139,Powhatan,Powhatan,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-23153,Goochland,Sandy Hook,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0
-23185,James City,Williamsburg,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0
-23228,Henrico,Henrico,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-23235,Chesterfield,Richmond,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0
-23237,Chesterfield,Richmond,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0
-23294,Henrico,Henrico,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-23324,Chesapeake City,Chesapeake,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-23350,Northampton,Exmore,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0
-23410,Accomack,Melfa,1,0,1,0,1,0,0,1,1,1,1,0,0,0,0,0
-23435,Suffolk City,Suffolk,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,0
-23437,Suffolk City,Suffolk,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0
-23451,Virginia Beach City,Virginia Beach,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-23453,Virginia Beach City,Virginia Beach,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-23464,Virginia Beach City,Virginia Beach,1,0,1,0,1,0,0,1,1,1,1,0,0,0,0,0
-23487,Isle Of Wight,Windsor,1,0,1,0,1,0,0,1,1,1,1,0,0,0,0,0
-23503,Norfolk City,Norfolk,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-23508,Norfolk City,Norfolk,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0
-23510,Norfolk City,Norfolk,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-23606,Newport News City,Newport News,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0
-23661,Hampton City,Hampton,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-23669,Hampton City,Hampton,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-23670,Hampton City,Hampton,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-23839,Surry,Dendron,1,0,1,0,1,0,0,1,1,0,0,0,0,0,1,1
-23867,Greensville,Jarratt,1,1,0,0,1,0,0,0,1,0,0,0,0,0,1,1
-23898,Isle Of Wight,Zuni,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0
-23901,Prince Edward,Farmville,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,2
-23919,Mecklenburg,Bracey,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0
-23960,Prince Edward,Prospect,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0
-24012,Roanoke City,Roanoke,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-24016,Roanoke City,Roanoke,1,1,0,0,0,1,0,0,1,1,1,0,0,0,1,1
-24055,Henry,Bassett,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0
-24078,Henry,Collinsville,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-24165,Henry,Spencer,1,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0
-24201,Bristol,Bristol,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-24202,Washington,Bristol,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0
-24216,Wise,Appalachia,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0
-24221,Lee,Blackwater,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-24260,Russell,Honaker,1,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0
-24277,Lee,Pennington Gap,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-24279,Wise,Pound,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-24324,Pulaski,Draper,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-24340,Washington,Glade Spring,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,0
-24348,Grayson,Independence,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0
-24360,Wythe,Max Meadows,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,0
-24382,Wythe,Wytheville,1,0,1,1,0,0,0,1,1,1,1,0,0,0,0,0
-24426,Covington City,Covington,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0
-24482,Augusta,Verona,1,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0
-24501,Lynchburg City,Lynchburg,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0
-24521,Amherst,Amherst,1,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0
-24534,Halifax,Clover,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-24572,Amherst,Madison Heights,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-24590,Albemarle,Scottsville,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0
-24603,Buchanan,Big Rock,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0
-24631,Buchanan,Oakwood,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-24651,Tazewell,Tazewell,1,1,0,1,0,0,0,0,1,1,1,0,0,0,0,0
+zip,county,city,leads,leads_auto,leads_home,leads_aug,leads_sep,leads_oct,leads_nov,homeowners,in_lead_list,status_set,contacted,x_dates,quoted,sold_households,items_sold,inbound_callers,inbound_calls
+22815,Rockingham,Broadway,1,1,0,0,0,1,0,0,1,1,1,0,1,1,1,1,1
+22824,Shenandoah,Edinburg,1,1,0,0,0,1,0,0,1,1,1,0,1,1,2,1,1
+23224,Richmond City,Richmond,7,6,1,1,2,4,0,1,7,6,3,1,2,0,0,1,2
+23607,Newport News City,Newport News,4,3,1,1,0,3,0,1,4,4,2,1,2,0,0,2,2
+22193,Prince William,Woodbridge,5,2,3,1,2,2,0,3,5,4,2,0,1,0,0,1,2
+23222,Richmond City,Richmond,3,3,0,0,1,2,0,0,3,2,1,1,1,0,0,0,0
+23462,Virginia Beach City,Virginia Beach,3,1,2,1,1,1,0,2,3,2,1,0,1,0,0,0,0
+23513,Norfolk City,Norfolk,3,1,2,1,1,0,1,2,3,2,1,0,1,0,0,0,0
+23701,Portsmouth City,Portsmouth,3,2,1,0,2,1,0,1,3,3,1,0,1,0,0,0,0
+23805,Petersburg City,Petersburg,3,2,1,0,3,0,0,1,3,3,2,1,1,0,0,0,0
+20121,Fairfax,Centreville,2,1,1,0,1,0,1,1,2,1,1,0,1,0,0,1,1
+23227,Henrico,Richmond,2,2,0,0,0,2,0,0,2,2,1,0,1,0,0,0,0
+23454,Virginia Beach City,Virginia Beach,2,1,1,1,0,1,0,1,2,2,1,0,1,0,0,1,1
+23504,Norfolk City,Norfolk,2,2,0,1,0,1,0,0,2,2,1,0,1,0,0,0,0
+23703,Portsmouth City,Portsmouth,2,1,1,0,2,0,0,1,2,2,1,0,1,0,0,0,0
+24179,Roanoke,Vinton,2,2,0,1,1,0,0,0,2,2,1,0,1,0,0,0,0
+24301,Pulaski,Pulaski,2,2,0,0,2,0,0,0,2,2,1,0,1,0,0,0,0
+20120,Fairfax,Centreville,1,1,0,0,0,1,0,0,1,1,1,0,1,0,0,0,0
+22031,Fairfax,Fairfax,1,1,0,0,0,1,0,0,1,1,1,1,1,0,0,0,0
+22655,Frederick,Stephens City,1,0,1,0,1,0,0,1,1,1,1,0,1,0,0,1,1
+22851,Page,Stanley,1,1,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0
+22903,Charlottesville City,Charlottesville,1,1,0,0,1,0,0,0,1,1,1,1,1,0,0,0,0
+23220,Richmond City,Richmond,1,1,0,1,0,0,0,0,1,1,1,1,1,0,0,1,1
+23324,Chesapeake City,Chesapeake,1,1,0,0,0,1,0,0,1,1,1,0,1,0,0,0,0
+23432,Suffolk City,Suffolk,1,1,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0
+23434,Suffolk City,Suffolk,1,1,0,0,0,1,0,0,1,1,1,0,1,0,0,1,1
+23502,Norfolk City,Norfolk,1,1,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0
+23505,Norfolk City,Norfolk,1,1,0,0,0,1,0,0,1,1,1,0,1,0,0,1,1
+23664,Hampton City,Hampton,1,0,1,1,0,0,0,1,1,1,1,1,1,0,0,1,1
+23901,Prince Edward,Farmville,1,1,0,0,0,1,0,0,1,1,1,0,1,0,0,1,2
+24095,Bedford,Goodview,1,0,1,0,1,0,0,1,1,1,1,1,1,0,0,0,0
+24121,Bedford,Moneta,1,1,0,0,1,0,0,0,1,1,1,1,1,0,0,0,0
+24151,Franklin,Rocky Mount,1,1,0,0,1,0,0,0,1,1,1,1,1,0,0,0,0
+24324,Pulaski,Draper,1,1,0,0,0,1,0,0,1,1,1,0,1,0,0,0,0
+22191,Prince William,Woodbridge,6,4,2,2,0,3,1,3,6,3,0,0,0,0,0,0,0
+23803,Petersburg City,Petersburg,5,5,0,1,0,4,0,1,5,3,1,0,0,0,0,0,0
+24017,Roanoke City,Roanoke,5,1,4,1,3,1,0,4,5,5,1,0,0,0,0,0,0
+22554,Stafford,Stafford,3,2,1,0,2,1,0,2,3,2,0,0,0,0,0,0,0
+23234,Chesterfield,Richmond,3,1,2,1,1,1,0,2,3,3,0,0,0,0,0,1,1
+23320,Chesapeake City,Chesapeake,3,3,0,1,0,2,0,0,3,3,0,0,0,0,0,0,0
+24112,Martinsville City,Martinsville,3,3,0,0,0,3,0,0,3,2,0,0,0,0,0,0,0
+22003,Fairfax,Annandale,2,2,0,0,0,2,0,0,2,1,0,0,0,0,0,0,0
+22192,Prince William,Woodbridge,2,2,0,0,0,2,0,0,2,1,0,0,0,0,0,0,0
+22405,Stafford,Fredericksburg,2,1,1,1,1,0,0,1,2,2,0,0,0,0,0,0,0
+22553,Spotsylvania,Spotsylvania,2,1,1,1,1,0,0,1,2,2,1,0,0,0,0,0,0
+22602,Frederick,Winchester,2,1,1,0,1,0,1,1,2,1,0,0,0,0,0,0,0
+22802,Harrisonburg City,Harrisonburg,2,1,1,0,1,1,0,1,2,1,0,0,0,0,0,0,0
+23223,Richmond City,Richmond,2,1,1,0,1,0,1,1,2,1,0,0,0,0,0,0,0
+23225,Richmond City,Richmond,2,1,1,1,0,1,0,1,1,1,1,0,0,0,0,0,0
+23231,Henrico,Henrico,2,1,1,1,1,0,0,2,2,2,0,0,0,0,0,1,1
+23323,Chesapeake City,Chesapeake,2,1,1,1,1,0,0,1,2,2,1,0,0,0,0,0,0
+23455,Virginia Beach City,Virginia Beach,2,2,0,0,1,1,0,0,2,2,0,0,0,0,0,0,0
+23509,Norfolk City,Norfolk,2,1,1,0,1,1,0,1,2,2,0,0,0,0,0,0,0
+23601,Newport News City,Newport News,2,1,1,1,1,0,0,1,2,2,0,0,0,0,0,0,0
+23602,Newport News City,Newport News,2,2,0,0,0,1,1,0,2,1,0,0,0,0,0,0,0
+23608,Newport News City,Newport News,2,1,1,0,2,0,0,1,1,1,0,0,0,0,0,0,0
+23666,Hampton City,Hampton,2,1,1,0,1,1,0,1,2,1,0,0,0,0,0,0,0
+23831,Chesterfield,Chester,2,2,0,1,1,0,0,1,2,2,0,0,0,0,0,0,0
+24084,Pulaski,Dublin,2,2,0,0,1,1,0,0,2,2,0,0,0,0,0,0,0
+24153,Salem,Salem,2,0,2,2,0,0,0,2,2,2,0,0,0,0,0,0,0
+24230,Wise,Coeburn,2,0,2,0,2,0,0,2,2,2,0,0,0,0,0,0,0
+24281,Lee,Rose Hill,2,2,0,0,1,1,0,1,2,2,0,0,0,0,0,1,1
+24477,Augusta,Stuarts Draft,2,1,1,1,1,0,0,1,2,2,2,0,0,0,0,1,1
+24523,Bedford,Bedford,2,1,1,0,2,0,0,1,2,2,0,0,0,0,0,0,0
+24592,Halifax,South Boston,2,2,0,0,1,1,0,0,2,1,0,0,0,0,0,0,0
+24639,Buchanan,Raven,2,1,1,1,0,1,0,1,2,1,0,0,0,0,0,0,0
+20147,Loudoun,Ashburn,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+20148,Loudoun,Ashburn,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0
+20152,Loudoun,Chantilly,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+20155,Prince William,Gainesville,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0
+20164,Loudoun,Sterling,1,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0
+20171,Fairfax,Herndon,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0
+20187,Fauquier,Warrenton,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0
+22015,Fairfax,Burke,1,1,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0
+22026,Prince William,Dumfries,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0
+22030,Fairfax City,Fairfax,1,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0
+22180,Fairfax,Vienna,1,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0
+22201,Arlington,Arlington,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+22204,Arlington,Arlington,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+22207,Arlington,Arlington,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+22303,Fairfax,Alexandria,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+22306,Fairfax,Alexandria,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+22311,Alexandria City,Alexandria,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+22315,Fairfax,Alexandria,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+22407,Spotsylvania,Fredericksburg,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+22572,Richmond,Warsaw,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0
+22611,Clarke,Berryville,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+22656,Frederick,Stephenson,1,0,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0
+22657,Shenandoah,Strasburg,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0
+22701,Culpeper,Culpeper,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+22732,Madison,Radiant,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+22820,Rockingham,Criders,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0
+22821,Rockingham,Dayton,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0
+22827,Rockingham,Elkton,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+22835,Page,Luray,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+22939,Augusta,Fishersville,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+22942,Orange,Gordonsville,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0
+22952,Augusta,Lyndhurst,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0
+22960,Orange,Orange,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+23027,Cumberland,Cartersville,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+23050,Gloucester,Dutton,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0
+23060,Henrico,Glen Allen,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+23061,Gloucester,Gloucester,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0
+23075,Henrico,Henrico,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+23092,Middlesex,Locust Hill,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+23114,Chesterfield,Midlothian,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+23116,Hanover,Mechanicsville,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+23139,Powhatan,Powhatan,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+23153,Goochland,Sandy Hook,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0
+23185,James City,Williamsburg,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0
+23228,Henrico,Henrico,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+23235,Chesterfield,Richmond,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0
+23237,Chesterfield,Richmond,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0
+23294,Henrico,Henrico,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+23350,Northampton,Exmore,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0
+23410,Accomack,Melfa,1,0,1,0,1,0,0,1,1,1,1,0,0,0,0,0,0
+23435,Suffolk City,Suffolk,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0
+23437,Suffolk City,Suffolk,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0
+23451,Virginia Beach City,Virginia Beach,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+23453,Virginia Beach City,Virginia Beach,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+23464,Virginia Beach City,Virginia Beach,1,0,1,0,1,0,0,1,1,1,1,0,0,0,0,0,0
+23487,Isle Of Wight,Windsor,1,0,1,0,1,0,0,1,1,1,1,0,0,0,0,0,0
+23503,Norfolk City,Norfolk,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+23508,Norfolk City,Norfolk,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0
+23510,Norfolk City,Norfolk,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+23606,Newport News City,Newport News,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+23661,Hampton City,Hampton,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+23669,Hampton City,Hampton,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+23670,Hampton City,Hampton,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+23839,Surry,Dendron,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,1,1
+23867,Greensville,Jarratt,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,1,1
+23898,Isle Of Wight,Zuni,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0
+23919,Mecklenburg,Bracey,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+23960,Prince Edward,Prospect,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0
+24012,Roanoke City,Roanoke,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+24016,Roanoke City,Roanoke,1,1,0,0,0,1,0,0,1,1,1,0,0,0,0,1,1
+24055,Henry,Bassett,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0
+24078,Henry,Collinsville,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+24165,Henry,Spencer,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0
+24201,Bristol,Bristol,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+24202,Washington,Bristol,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+24216,Wise,Appalachia,1,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0
+24221,Lee,Blackwater,1,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0
+24260,Russell,Honaker,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0
+24277,Lee,Pennington Gap,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+24279,Wise,Pound,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
+24340,Washington,Glade Spring,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0
+24348,Grayson,Independence,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+24360,Wythe,Max Meadows,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0
+24382,Wythe,Wytheville,1,0,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0
+24426,Covington City,Covington,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0
+24482,Augusta,Verona,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0
+24501,Lynchburg City,Lynchburg,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0
+24521,Amherst,Amherst,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0
+24534,Halifax,Clover,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+24572,Amherst,Madison Heights,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+24590,Albemarle,Scottsville,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+24603,Buchanan,Big Rock,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0
+24631,Buchanan,Oakwood,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+24651,Tazewell,Tazewell,1,1,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0
